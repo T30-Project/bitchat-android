@@ -62,6 +62,7 @@ roboelectric = "4.15"
 kotlinx-coroutines-test = "1.6"
 
 lifecycle-process = "2.8.7"
+material = "1.10.0"
 
 [libraries]
 # AndroidX Core
@@ -133,6 +134,7 @@ mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "
 mockito-inline = { module = "org.mockito:mockito-inline", version.ref = "mockito-inline" }
 roboelectric = { module = "org.robolectric:robolectric", version.ref = "roboelectric"}
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines-test"}
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
